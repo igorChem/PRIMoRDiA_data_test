@@ -1,4 +1,4 @@
-PM7 1SCF CHARGE=0 Singlet allvecs large AUX GRAPHF
+PM7 1SCF CHARGE=1 Doublet allvecs large AUX GRAPHF
 
 
 C  -0.739000  1 1.189000  1 -0.007334  1
