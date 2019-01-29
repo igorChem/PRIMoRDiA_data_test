@@ -1,0 +1,19 @@
+not not not not
+1 benzene.aux mopac 
+2 benzene.aux benzene_cat.aux benzene_an.aux mopac 
+3 benzene.mgf LH 40 mopac
+4 benzene.mgf benzene_cat.mgf benzene_an.mgf 40 1 mopac 
+8 benzene.aux benzene_cat.aux benzene_an.aux 1 mopac 
+9 benzene.aux mopac 
+10 1l2yPM7neutro.mgf LH 40 10 mopac
+1 25.fchk gaussian
+3 25.fchk LH 40 gaussian
+9 25.fchk gaussian
+1 metano.log gamess 
+2 metano.log metano_cat.log metano_an.log gamess
+3 metano.log LH 40 gamess
+4 metano.log metano_cat.log metano_an.log 40 1 gamess
+8 metano.log metano_cat.log metano_an.log 1 gamess
+
+
+
