@@ -1,19 +1,19 @@
-not not not not
-1 benzene.aux mopac 
-2 benzene.aux benzene_cat.aux benzene_an.aux mopac 
-3 benzene.mgf LH 40 mopac
-4 benzene.mgf benzene_cat.mgf benzene_an.mgf 40 1 mopac 
-8 benzene.aux benzene_cat.aux benzene_an.aux 1 mopac 
-9 benzene.aux mopac 
-10 1l2yPM7neutro.mgf LH 40 10 mopac
-1 25.fchk gaussian
-3 25.fchk LH 40 gaussian
-9 25.fchk gaussian
-1 metano.log gamess 
-2 metano.log metano_cat.log metano_an.log gamess
-3 metano.log LH 40 gamess
-4 metano.log metano_cat.log metano_an.log 40 1 gamess
-8 metano.log metano_cat.log metano_an.log 1 gamess
-
-
-
+pymols 
+1 acrolein_gauss.fchk   fukui           40 gaussian mep 
+1 trp_pm6_neutro_zy.aux default         40 mopac    mep
+1 acrolein_orca_out     potential       40 orca     mep
+1 acrolein_gam.log      potential_fukui 40 gamess   mep
+1 aldeide. log          poential_fukui  40 gamess   mep   
+1 acrolein.aux          none            40 mopac
+1 benzene.aux           fukui           40 mopac
+1 metano.log            default         40 gamess
+1 trp_convHF.log        fukui           40 gamess 
+1 trp.log               potential        0 gamess 
+2 acrolein_gam.log  acrolein_gam_cat.log   acrolein_gam_an.log  40 1 default         gamess mep 
+2 metano.log        metano_cat.log         metano_an.log        40 1 potential_fukui gamess mep 
+2 acrolein_orca.out acrolein_orca_cat.out  acrolein_orca_an.out 40 1 default         orca   mep 
+2 benzene.mgf       benzene_cat.mgf        benzene_an.mgf       40 1 potential       mopac  mep
+3 trp.log                fukui     0  10 trp.pdb gamess  0     0     0     0  mep 
+3 trp_.pm6_neutro_zy.aux defult    40 0  trp.pdb mopac   28.95 21.86 27.90 10 EW mep
+3 1l2yPM7neutro.aux      fukui     0  30 trp.pdb mopac   0     0     0     0  elecdens
+3 trp_convHF.log         potential 0  0  trp.pdb gamess  0     0     0     0  
