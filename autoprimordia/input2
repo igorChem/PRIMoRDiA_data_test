@@ -1,2 +1,19 @@
-not 
-3 benzene.mgf not 40 mopac
+pymols 
+0 /home/igorchem/primordia_data_test/autoprimordia/acrolein_gauss.fchk   fukui           40 gaussian mep 
+0 /home/igorchem/primordia_data_test/autoprimordia/trp_pm6_neutro_zy.aux default         40 mopac    mep
+0 /home/igorchem/primordia_data_test/autoprimordia/acrolein_orca.out     potential       40 orca     mep
+0 /home/igorchem/primordia_data_test/autoprimordia/acrolein_gam.log      potential_fukui 40 gamess   mep
+0 /home/igorchem/primordia_data_test/autoprimordia/aldeide.log           potential_fukui  40 gamess   mep   
+0 /home/igorchem/primordia_data_test/autoprimordia/acrolein.aux          none            40 mopac
+0 /home/igorchem/primordia_data_test/autoprimordia/benzene.aux           fukui           40 mopac
+0 /home/igorchem/primordia_data_test/autoprimordia/metano.log            default         40 gamess
+0 /home/igorchem/primordia_data_test/autoprimordia/trp_convHF.log        fukui           40 gamess 
+0 /home/igorchem/primordia_data_test/autoprimordia/trp.log               potential        0 gamess 
+0 /home/igorchem/primordia_data_test/autoprimordia/acrolein_gam.log  /home/igorchem/primordia_data_test/autoprimordia/acrolein_gam_cat.log   /home/igorchem/primordia_data_test/autoprimordia/acrolein_gam_an.log  default         40 1  gamess mep 
+0 /home/igorchem/primordia_data_test/autoprimordia/metano.log        /home/igorchem/primordia_data_test/autoprimordia/metano_cat.log         /home/igorchem/primordia_data_test/autoprimordia/metano_an.log        potential_fukui 40 1  gamess mep 
+0 /home/igorchem/primordia_data_test/autoprimordia/acrolein_orca.out /home/igorchem/primordia_data_test/autoprimordia/acrolein_orca_cat.out  /home/igorchem/primordia_data_test/autoprimordia/acrolein_orca_an.out default         40 1  orca   mep 
+0 /home/igorchem/primordia_data_test/autoprimordia/benzene.mgf       /home/igorchem/primordia_data_test/autoprimordia/benzene_cat.mgf        /home/igorchem/primordia_data_test/autoprimordia/benzene_an.mgf       potential       40 1  mopac  mep
+3 /home/igorchem/primordia_data_test/autoprimordia/trp.log                fukui     0  10 /home/igorchem/primordia_data_test/autoprimordia/trp.pdb gamess  0     0     0     0  mep 
+3 /home/igorchem/primordia_data_test/autoprimordia/trp_pm6_neutro_zy.aux  defult    40 20 /home/igorchem/primordia_data_test/autoprimordia/trp.pdb mopac   28.95 21.86 27.90 10 EW mep
+3 /home/igorchem/primordia_data_test/autoprimordia/1l2yPM7neutro.aux      fukui     0  30 /home/igorchem/primordia_data_test/autoprimordia/trp.pdb mopac   0     0     0     0  elecdens
+3 /home/igorchem/primordia_data_test/autoprimordia/trp_convHF.log         potential 0  30 /home/igorchem/primordia_data_test/autoprimordia/trp.pdb gamess  0     0     0     0  
