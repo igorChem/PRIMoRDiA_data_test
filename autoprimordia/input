@@ -6,10 +6,9 @@ pymols
 1 aldeide.log           potential_fukui  40 gamess   mep   
 1 acrolein.aux          none            40 mopac
 1 benzene.aux           fukui           40 mopac
-1 metano.log            default         40 gamess
 1 trp_convHF.log        fukui           40 gamess 
 1 trp.log               potential        0 gamess 
-2 acrolein_gam.log  acrolein_gam_cat.log   acrolein_gam_an.log  default         40 1  gamess mep 
+2 trp_dft.log  trp_dft_cat.log   trp_dft_an.log  default         40 1  gamess mep 
 2 metano.log        metano_cat.log         metano_an.log        potential_fukui 40 1  gamess mep 
 2 acrolein_orca.out acrolein_orca_cat.out  acrolein_orca_an.out default         40 1  orca   mep 
 2 benzene.mgf       benzene_cat.mgf        benzene_an.mgf       potential       40 1  mopac  mep
